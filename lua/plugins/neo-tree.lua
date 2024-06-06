@@ -11,4 +11,13 @@ return {
     { "<leader>ee", "<cmd>Neotree toggle<cr>", desc = "Toggle file explorer" },
     { "<leader>ef", "<cmd>Neotree reveal<cr>", desc = "Toggle file explorer on current file" },
   },
+  opts = {
+    filesystem = {
+      window = {
+        mappings = {
+          ["Z"] = "expand_all_nodes",
+        },
+      },
+    },
+  },
 }
